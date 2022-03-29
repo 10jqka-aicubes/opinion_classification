@@ -1,0 +1,1 @@
+tf1.11python build_pretraining_dataset.py --corpus-dir /data2/tuhailong/Chinese-ELECTRA-master/pretrain/data --vocab-file /data2/tuhailong/Chinese-ELECTRA-master/data/models/small/vocab.txt --no-lower-case --output-dir ./pretrain_model/data/

@@ -1,0 +1,1 @@
+python3 run_save_pb_classifier.py -bert_model_dir not_in_use -model_dir ../result_ELECTRA_EN/finetuning_models/multilabel_model_1  -model_pb_dir ./pb_dir/multi -max_seq_len 40 -num_labels 25  --data_dir ./data --model_name small --hparams '{"model_size":"small","task_names":["multilabel"]}'
